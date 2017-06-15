@@ -1,0 +1,12 @@
+# Go
+*.a
+*.o
+
+# Directories
+docs/
+
+# Scripts
+*.sh
+
+# VIM
+*.swp
