@@ -1,55 +1,55 @@
 package messagetypes
 
 // message to robot type
-const (
-  INITIALIZE = iota
-  YOUR_NAME
-  YOUR_COLOUR
-  //  BIN_DATA_TO
-  //  ASCII_DATA_TO
-  //  LOAD_DATA_FINISHED
-  GAME_OPTION
-  GAME_STARTS
-  RADAR
-  INFO
-  COORDINATES
-  ROBOT_INFO
-  ROTATION_REACHED
-  ENERGY
-  ROBOTS_LEFT
-  COLLISION
-  WARNING
-  DEAD
-  GAME_FINISHES
-  //  SAVE_DATA
-  EXIT_ROBOT
-  UNKNOWN_MESSAGE_TO_ROBOT = -1
-)
-
-// messages from robot to type
-const (
-  ROBOT_OPTION = iota
-  NAME
-  COLOUR
-  //  LOAD_DATA
-  ROTATE
-  ROTATE_TO
-  ROTATE_AMOUNT
-  SWEEP
-  ACCELERATE
-  BRAKE
-  BREAK
-  SHOOT
-  PRINT
-  DEBUG
-  DEBUG_LINE
-  DEBUG_CIRCLE
-  UNKNOWN_MESSAGE_FROM_ROBOT = -1
-
-  //  BIN_DATA_FROM
-  //  ASCII_DATA_FROM
-  //  SAVE_DATA_FINISHED
-)
+//const (
+//  INITIALIZE = iota
+//  YOUR_NAME
+//  YOUR_COLOUR
+//  //  BIN_DATA_TO
+//  //  ASCII_DATA_TO
+//  //  LOAD_DATA_FINISHED
+//  GAME_OPTION
+//  GAME_STARTS
+//  RADAR
+//  INFO
+//  COORDINATES
+//  ROBOT_INFO
+//  ROTATION_REACHED
+//  ENERGY
+//  ROBOTS_LEFT
+//  COLLISION
+//  WARNING
+//  DEAD
+//  GAME_FINISHES
+//  //  SAVE_DATA
+//  EXIT_ROBOT
+//  UNKNOWN_MESSAGE_TO_ROBOT = -1
+//)
+//
+//// messages from robot to type
+//const (
+//  ROBOT_OPTION = iota
+//  NAME
+//  COLOUR
+//  //  LOAD_DATA
+//  ROTATE
+//  ROTATE_TO
+//  ROTATE_AMOUNT
+//  SWEEP
+//  ACCELERATE
+//  BRAKE
+//  BREAK
+//  SHOOT
+//  PRINT
+//  DEBUG
+//  DEBUG_LINE
+//  DEBUG_CIRCLE
+//  UNKNOWN_MESSAGE_FROM_ROBOT = -1
+//
+//  //  BIN_DATA_FROM
+//  //  ASCII_DATA_FROM
+//  //  SAVE_DATA_FINISHED
+//)
 
 // argument type
 const (

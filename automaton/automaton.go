@@ -21,7 +21,7 @@ func Get_msg () bool{
         // set robot name and colors
         if (init == 1) {
             fmt.Printf("Name %s\n", configuration.NAME)
-            fmt.Printf("Colour 3399ff 777777\n")
+            fmt.Printf("Colour %s %s\n", configuration.COLOR, configuration.X)
         }
 
     case "GameOption":
