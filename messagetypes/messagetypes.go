@@ -1,66 +1,5 @@
 package messagetypes
 
-// message to robot type
-//const (
-//  INITIALIZE = iota
-//  YOUR_NAME
-//  YOUR_COLOUR
-//  //  BIN_DATA_TO
-//  //  ASCII_DATA_TO
-//  //  LOAD_DATA_FINISHED
-//  GAME_OPTION
-//  GAME_STARTS
-//  RADAR
-//  INFO
-//  COORDINATES
-//  ROBOT_INFO
-//  ROTATION_REACHED
-//  ENERGY
-//  ROBOTS_LEFT
-//  COLLISION
-//  WARNING
-//  DEAD
-//  GAME_FINISHES
-//  //  SAVE_DATA
-//  EXIT_ROBOT
-//  UNKNOWN_MESSAGE_TO_ROBOT = -1
-//)
-//
-//// messages from robot to type
-//const (
-//  ROBOT_OPTION = iota
-//  NAME
-//  COLOUR
-//  //  LOAD_DATA
-//  ROTATE
-//  ROTATE_TO
-//  ROTATE_AMOUNT
-//  SWEEP
-//  ACCELERATE
-//  BRAKE
-//  BREAK
-//  SHOOT
-//  PRINT
-//  DEBUG
-//  DEBUG_LINE
-//  DEBUG_CIRCLE
-//  UNKNOWN_MESSAGE_FROM_ROBOT = -1
-//
-//  //  BIN_DATA_FROM
-//  //  ASCII_DATA_FROM
-//  //  SAVE_DATA_FINISHED
-//)
-
-// argument type
-const (
-  NONE = iota
-  STRING
-  DOUBLE
-  INT
-  HEX
-  //  BINDATA
-)
-
 // warning type
 const (
   UNKNOWN_MESSAGE = iota
@@ -125,4 +64,12 @@ const (
 )
 
 // number of object types
-const number_of_object_types int = 5
+//const number_of_object_types int = 5
+
+// part of robot number
+const (
+    // the sum of these rotate the combination of those objects
+    ROBOT_ROTATE = 1
+    CANNON_ROTATE = 2
+    RADAR_ROTATE = 4
+)
